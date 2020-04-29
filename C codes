@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c,e ;
+printf("Enter two numbers ", a,b );
+scanf("%d %d",&a,&b);
+c=10*a+b;
+printf("Initial number is : %d",c);
+e=10*b+a;
+printf("Number after swapping digits becomes : %d", e);
+return 0 ;
+}
